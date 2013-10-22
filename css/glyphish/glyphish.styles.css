@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+/* GLYPHISH DEFAULTS */
+.square{border-radius: 8px;	}
+.round{border-radius: 17px;	}
+.border-off{border-style:none;border-width:0px;}
+.border-white{
+				border-width:2px;
+				border-style:solid;
+				border-color:#FFFFFF;
+}
+.border-black{
+				border-width:2px;
+				border-style:solid;
+				border-color:#333333;}
+.border-gray{
+				border-width:2px;
+				border-style:solid;
+				border-color:#CCCCCC;}
+.red, .off, .no, .false, .acknowledged0, .confirmed0, .printed0, .active0, .visible0{
+	background-color:#990000;
+	color: white;	
+}
+.blue{
+	background-color:#3333FF;
+	color: white;
+}
+.yellow{
+	background-color:#FFCC00;
+	color: white;
+}
+.green, .on, .yes, .true, .acknowledged1, .confirmed1, .printed1, .active1, visible1{
+	background-color:#006600;
+	color: white;
+}
+.black{
+		background-color:#333333;
+		color: white;
+}
+.gray, .disabled{
+		background-color:#CCCCCC;
+		color: white;
+}
+.white{
+		background-color:#FFFFFF;
+		color: black;
+		border-color:black;
+		border-width:2px;
+		border-style:double;
+}
+.inline{
+		display: inline-block;	
+}

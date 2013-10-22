@@ -1,0 +1,391 @@
+@charset "utf-8";
+/* CSS Document */
+.no-button{
+	 background-image: url( 'white/46-no.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#990000;
+	max-width:34px;
+	height:34px;
+	border-radius: 16px;
+}
+.circle-check-button{
+	 background-image: url( 'white/19-circle-check.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#006600;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.check-button{
+	 background-image: url( 'white/17-check.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#006600;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.circle-x-button{
+	 background-image: url( 'white/37-circle-x.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#990000;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.x-button, .close-button{
+	 background-image: url( 'white/60-x.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#990000;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.info-button{
+	 background-image: url( 'white/42-info.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#3333FF;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.warning-button{
+	 background-image: url( 'white/184-warning.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#FFCC00;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.at-button, .email-button{
+	 background-image: url( 'white/287-at.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	height:33px;
+	cursor:pointer;	
+	background-color:#006600;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.printer-button, .print-button{
+	 background-image: url( 'white/185-printer.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	height:33px;
+	cursor:pointer;	
+	background-color:#006600;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.piechart-button{
+	 background-image: url( 'white/249-piechart.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#006600;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.redo-button, .sync-button{
+	 background-image: url( 'white/02-redo.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	height:33px;
+	cursor:pointer;	
+	background-color:#006600;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.iphone-button{
+	 background-image: url( 'white/32-iphone.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	height:33px;
+	cursor:pointer;	
+	background-color:#333333;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.todo-button{
+	 background-image: url( 'white/55-todo.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#006600;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.wifi-button{
+	 background-image: url( 'white/58-wifi.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#006600;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+
+
+.power-button, .power-on, .is-on{
+	 background-image: url( 'white/51-power.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#006600;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.power-off, .is-off{
+	background-image: url( 'white/51-power.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;
+	background-color:#990000;	
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.plus-button, .is-collapsed, .expand {
+	background-image: url( 'white/50-plus.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	height:33px;
+	cursor:pointer;
+	background-color:#006600;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.minus-button, .is-expanded, .collapse{
+	background-image: url( 'white/45-minus.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	height:33px;
+	cursor:pointer;	
+	background-color:#990000;	
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.eye-button .visible, .is-visible{
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;
+	background-image: url( 'white/12-eye.png');
+	background-color:#006600;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.invisible, .is-invisible{
+	background-image: url( 'white/12-eye.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;
+	background-color:#990000;	
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.zoomin-button{
+	 background-image: url( 'white/267-zoomin.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#333333;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.zoomout-button{
+	 background-image: url( 'white/268-zoomout.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#333333;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.target-button{
+	 background-image: url( 'white/13-target.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#990000;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.clock-button, .time-button{
+	 background-image: url( 'white/11-clock.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#333333;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+
+.gear-button, .settings-button{
+	 background-image: url( 'white/19-gear.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#3333FF;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.compose-button, .edit-button{
+	 background-image: url( 'white/216-compose.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#3333FF;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.trash-button{
+	background-image: url( 'white/218-trash2.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#3333FF;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.list-button{
+	 background-image: url( 'white/259-list.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#3333FF;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.download-button{
+	 background-image: url( 'white/331-download.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#3333FF;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.adjustments-button{
+	 background-image: url( 'white/304-adjustments.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#333333;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.shipping-crate-button, .shipping-button{
+	 background-image: url( 'white/319-shipping-crate.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#3333FF;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.notepad-button{
+	 background-image: url( 'white/425-notepad.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#3333FF;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.calendar-button{
+	 background-image: url( 'white/426-calendar.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#3333FF;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.help-symbol1-button, .help-button{
+	 background-image: url( 'white/441-help-symbol1.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#3333FF;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+/* BUTTON SETTINGS */
+.square{border-radius: 8px;	}
+.round{border-radius: 17px;	}
+.border-off{border-style:none;border-width:0px;}
+.border-white{border-color:#FFFFFF;}
+.border-black{border-color:#333333;}
+.border-gray{border-color:#CCCCCC;}
+
+.red{
+	background-color:#990000;
+	color: white;	
+}
+.blue{
+	background-color:#3333FF;
+	color: white;
+}
+.yellow{
+	background-color:#FFCC00;
+	color: white;
+}
+.green{
+	background-color:#006600;
+	color: white;
+}
+.black{
+		background-color:#333333;
+		color: white;
+}
+.gray, .disabled{
+		background-color:#CCCCCC;
+		color: white;
+}
+.white{
+		background-color:#FFFFFF;
+		color: black;
+		border-color:black;
+		border-width:2px;
+		border-style:double;
+}
+

@@ -1,0 +1,98 @@
+/* CSS Document */
+label.error{
+display:none;	
+}
+.error{
+	border: 2px solid red;		
+}
+label.error {
+	border: 0px;	
+}
+.hidden{
+	display:none;	
+}
+.dash{
+	text-align:center;
+	padding-top:35px;
+	text-decoration: none; 	
+}
+body,section,header,footer,article {
+max-width:1024px;	
+
+}
+
+.dash a {    
+color:black;
+text-decoration: none; 
+ 
+} 
+a:link {
+	text-decoration: none;
+	color:#FFFFFF; 
+}      /* unvisited link */
+a:visited {text-decoration: none; 
+color:#FFFFFF; 
+}  /* visited link */
+a:hover {text-decoration: none; 
+color:#FFFFFF; 
+}  /* mouse over link */
+a:active {text-decoration: none; 
+color:#FFFFFF; 
+} 
+
+/************************JQMFORM LABEL ADJUST*****************************************************/
+.ui-field-contain input.ui-input-text, .ui-field-contain textarea.ui-input-text, .ui-field-contain .ui-input-search {
+  display: inline-block;
+  width: 68%;
+}
+
+.ui-field-contain label.ui-input-text {
+  display: inline-block;
+  margin: 0 2% 0 0;
+  vertical-align: top;
+  width: 30%;
+}
+
+.ui-field-contain .ui-select {
+  display: inline-block;
+  width: 68%;
+}
+.ui-field-contain label.ui-select {
+  display: inline-block;
+  margin: 0 2% 0 0;
+  vertical-align: top;
+  width: 30%;
+}
+.ui-field-contain .ui-input-datebox {
+  display: inline-block;
+  width: 65%;
+}
+.ui-field-contain .ui-controlgroup-label {
+  display: inline-block;
+  margin: 0 2% 0 0;
+  vertical-align: top;
+  width: 30%;
+}
+.ui-field-contain .ui-controlgroup-controls {
+  display: inline-block;
+  width: 68%;
+}
+/************************JQMFORM LABEL ADJUST*****************************************************/
+
+/************************DataTables ADJUST*****************************************************/
+.datatable th, .datatable td{
+	font-size:.9em;	
+}
+.datatable .right {
+	text-align:right;	
+}
+.datatable .left {
+	text-align:left;	
+}
+.datatable .center {
+	text-align:center;	
+}
+
+
+
+

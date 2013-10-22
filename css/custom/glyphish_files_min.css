@@ -1,0 +1,544 @@
+/* CSS Document */
+.glyphish-file{
+		/*display: inline-block;*/
+		background-repeat:no-repeat;
+		background-position:center;	
+		height:34px;
+		width:34px;
+		cursor:pointer;
+		background-color:#FFFFFF;
+		color: #CCCCCC;
+		border-color:#CCCCCC;
+		border-width:2px;
+		border-style:solid;
+		border-radius: 8px;	
+}
+
+.no-button{
+	 background-image: url( 'images_white/46-no.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#990000;
+	max-width:34px;
+	height:34px;
+	border-radius: 16px;
+}
+.check-button{
+	 background-image: url( 'images_white/19-circle-check.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#006600;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.check-button2{
+	 background-image: url( 'images_white/17-check.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#006600;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.x-button{
+	 background-image: url( 'images_white/37-circle-x.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#990000;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.close-button{
+	 background-image: url( 'images_white/60-x.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#990000;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.info-button{
+	 background-image: url( 'images_white/42-info.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#3333FF;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.warning-button{
+	 background-image: url( 'images_white/184-warning.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#FFCC00;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.email-button{
+	 background-image: url( 'images_white/287-at.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	height:33px;
+	cursor:pointer;	
+	background-color:#006600;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.print-button{
+	 background-image: url( 'images_white/185-printer.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	height:33px;
+	cursor:pointer;	
+	background-color:#006600;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.sync-button{
+	 background-image: url( 'images_white/02-redo.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	height:33px;
+	cursor:pointer;	
+	background-color:#006600;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.iphone-button{
+	 background-image: url( 'images_white/32-iphone.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	height:33px;
+	cursor:pointer;	
+	background-color:#333333;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.todo-button{
+	 background-image: url( 'images_white/55-todo.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#006600;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.wifi-button{
+	 background-image: url( 'images_white/58-wifi.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#006600;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+
+
+.power-on, .is-on{
+	 background-image: url( 'images_white/51-power.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#006600;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.power-off, .is-off{
+	background-image: url( 'images_white/51-power.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;
+	background-color:#990000;	
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.is-collapsed, .expand {
+	background-image: url( 'images_white/50-plus.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	height:33px;
+	cursor:pointer;
+	background-color:#006600;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.is-expanded, .collapse{
+	background-image: url( 'images_white/45-minus.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	height:33px;
+	cursor:pointer;	
+	background-color:#990000;	
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.visible, .is-visible{
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;
+	background-image: url( 'images/12-eye.png');
+	background-color:#006600;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.invisible, .is-invisible{
+	background-image: url( 'images/12-eye.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;
+	background-color:#990000;	
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.zoomin-button{
+	 background-image: url( 'images_white/267-zoomin.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#333333;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.zoomout-button{
+	 background-image: url( 'images_white/268-zoomout.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#333333;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.target-button{
+	 background-image: url( 'images_white/13-target.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#990000;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.time-button{
+	 background-image: url( 'images_white/11-clock.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#333333;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+
+.settings-button{
+	 background-image: url( 'images_white/19-gear.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#3333FF;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.edit-button{
+	 background-image: url( 'images_white/216-compose.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#3333FF;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.trash-button{
+	 background-image: url( 'images_white/218-trash2.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#3333FF;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.list-button{
+	 background-image: url( 'images_white/259-list.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#3333FF;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.download-button{
+	 background-image: url( 'images_white/331-download.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#3333FF;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.adjustments-button{
+	 background-image: url( 'images_white/304-adjustments.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#333333;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.shipping-button{
+	 background-image: url( 'images_white/319-shipping-crate.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#3333FF;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.notepad-button{
+	 background-image: url( 'images_white/425-notepad.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#3333FF;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.calendar-button{
+	 background-image: url( 'images_white/426-calendar.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#3333FF;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+.help-button{
+	 background-image: url( 'images_white/441-help-symbol1.png');
+	background-repeat:no-repeat;
+	background-position:center;	
+	cursor:pointer;	
+	background-color:#3333FF;
+	max-width:34px;
+	height:34px;
+	border-radius: 17px;
+}
+
+.square{
+	border-radius: 8px;	
+}
+
+.red{
+	background-color:#990000;
+	color: white;	
+}
+.blue{
+	background-color:#3333FF;
+	color: white;
+}
+.yellow{
+	background-color:#FFCC00;
+	color: white;
+}
+.green{
+	background-color:#006600;
+	color: white;
+}
+.black{
+		background-color:#333333;
+		color: white;
+}
+.gray, .disabled{
+		background-color:#CCCCCC;
+		color: white;
+}
+.white{
+		background-color:#FFFFFF;
+		color: black;
+		border-color:black;
+		border-width:2px;
+		border-style:double;
+}
+
+
+
+.green-button {
+background-color:#006600;
+max-width:33px;
+height:33px;
+border-radius: 8px;	
+}
+.red-button {
+background-color:#990000;	
+border-radius: 8px;	
+max-width:33px;
+height:33px;	
+}
+.red-circle {
+background-color:#990000;	
+border-radius: 16px;	
+max-width:33px;
+height:33px;	
+}
+.green-circle {
+background-color:#006600;
+max-width:33px;
+height:33px;
+border-radius: 16px;	
+}
+
+.closed {
+background-color:#006600;
+max-width:33px;
+height:33px;
+border-radius: 8px;	
+}
+.open {
+background-color:#990000;	
+border-radius: 8px;	
+max-width:33px;
+height:33px;	
+}
+
+
+
+
+.action { background-image: url( 'images_gray_min/211-action.png');}
+.adjustments { background-image: url( 'images_gray_min/304-adjustments.png');}
+.arrows-in { background-image: url( 'images_gray_min/10-arrows-in.png');}
+.arrows-out { background-image: url( 'images_gray_min/11-arrows-out.png');}
+.at { background-image: url( 'images_gray_min/287-at.png');}
+.backintime { background-image: url( 'images_gray_min/333-backintime.png');}
+.bar-chart { background-image: url( 'images_gray_min/17-bar-chart.png');}
+.bothways { background-image: url( 'images_gray_min/14-bothways.png');}
+.bug { background-image: url( 'images/110-bug.png');}
+.calculator { background-image: url( 'images_gray_min/161-calculator.png');}
+.calendar { background-image: url( 'images_gray_min/426-calendar.png');}
+.calendar { background-image: url( 'images_gray_min/83-calendar.png');}
+.chat { background-image: url( 'images_gray_min/08-chat.png');}
+.chat-2 { background-image: url( 'images_gray_min/09-chat-2.png');}
+.check { background-image: url( 'images_gray_min/17-check.png');}
+.code-fork { background-image: url( 'images_gray_min/365-code-fork.png');}
+.code-merge2@2x { background-image: url( 'images_gray_min/370-code-merge2@2x.png');}
+.code-sync { background-image: url( 'images_gray_min/368-code-sync.png');}
+.count { background-image: url( 'images_gray_min/260-count.png');}
+.delete { background-image: url( 'images_gray_min/342-delete.png');}
+.dialpad { background-image: url( 'images_gray_min/40-dialpad.png');}
+.dislike { background-image: url( 'images_gray_min/322-dislike.png');}
+.dollar-currency { background-image: url( 'images_gray_min/384-dollar-currency.png');}
+.dollars2 { background-image: url( 'images_gray_min/453-dollars2.png');}
+.download { background-image: url( 'images_gray_min/265-download.png');}
+.download { background-image: url( 'images_gray_min/331-download.png');}
+.download { background-image: url( 'images_gray_min/57-download.png');}
+.envelope { background-image: url( 'images_gray_min/18-envelope.png');}
+.eye { background-image: url( 'images_gray_min/12-eye.png');}
+.flag { background-image: url( 'images_gray_min/59-flag.png');}
+.gear { background-image: url( 'images_gray_min/19-gear.png');}
+.gear-2 { background-image: url( 'images_gray_min/20-gear-2.png');}
+.gmail { background-image: url( 'images_gray_min/489-gmail.png');}
+.group { background-image: url( 'images_gray_min/112-group.png');}
+.help-symbol1 { background-image: url( 'images_gray_min/441-help-symbol1.png');}
+.help-symbol2 { background-image: url( 'images_gray_min/451-help-symbol2.png');}
+.house { background-image: url( 'images_gray_min/53-house.png');}
+.icloud { background-image: url( 'images_gray_min/491-icloud.png');}
+.id-card { background-image: url( 'images_gray_min/123-id-card.png');}
+.idcard { background-image: url( 'images_gray_min/291-idcard.png');}
+.imac { background-image: url( 'images_gray_min/174-imac.png');}
+.information-symbol1 { background-image: url( 'images_gray_min/442-information-symbol1.png');}
+.information-symbol2 { background-image: url( 'images_gray_min/452-information-symbol2.png');}
+.ipad { background-image: url( 'images_gray_min/176-ipad.png');}
+.iphone { background-image: url( 'images_gray_min/32-iphone.png');}
+.key { background-image: url( 'images_gray_min/237-key.png');}
+.key { background-image: url( 'images_gray_min/30-key.png');}
+.keyboard { background-image: url( 'images_gray_min/341-keyboard.png');}
+.layers3 { background-image: url( 'images_gray_min/329-layers3.png');}
+.light-switch { background-image: url( 'images_gray_min/306-light-switch.png');}
+.like { background-image: url( 'images_gray_min/321-like.png');}
+.line-chart { background-image: url( 'images_gray_min/16-line-chart.png');}
+.list2 { background-image: url( 'images_gray_min/400-list2.png');}
+.locked { background-image: url( 'images_gray_min/381-locked.png');}
+.loopback { background-image: url( 'images_gray_min/03-loopback.png');}
+.magnify { background-image: url( 'images_gray_min/06-magnify.png');}
+.map { background-image: url( 'images_gray_min/103-map.png');}
+.map-marker { background-image: url( 'images_gray_min/07-map-marker.png');}
+.medical { background-image: url( 'images_gray_min/10-medical.png');}
+.minus { background-image: url( 'images_gray_min/45-minus.png');}
+.move-point { background-image: url( 'images_gray_min/314-move-point.png');}
+.navigation { background-image: url( 'images_gray_min/395-navigation.png');}
+.no { background-image: url( 'images_gray_min/432-no.png');}
+.no { background-image: url( 'images_gray_min/46-no.png');}
+.notepad { background-image: url( 'images_gray_min/179-notepad.png');}
+.notepad { background-image: url( 'images_gray_min/425-notepad.png');}
+.o { background-image: url( 'images_gray_min/47-o.png');}
+.page { background-image: url( 'images_gray_min/410-page.png');}
+.paperclip { background-image: url( 'images_gray_min/68-paperclip.png');}
+.person { background-image: url( 'images_gray_min/253-person.png');}
+.phone { background-image: url( 'images_gray_min/75-phone.png');}
+.piechart { background-image: url( 'images_gray_min/249-piechart.png');}
+.pill { background-image: url( 'images_gray_min/94-pill.png');}
+.plus { background-image: url( 'images_gray_min/436-plus.png');}
+.plus { background-image: url( 'images_gray_min/50-plus.png');}
+.power { background-image: url( 'images_gray_min/51-power.png');}
+.presentation { background-image: url( 'images_gray_min/137-presentation.png');}
+.redo { background-image: url( 'images_gray_min/02-redo.png');}
+.refresh { background-image: url( 'images_gray_min/01-refresh.png');}
+.reply { background-image: url( 'images_gray_min/213-reply.png');}
+.rotate { background-image: url( 'images_gray_min/332-rotate.png');}
+.route { background-image: url( 'images_gray_min/246-route.png');}
+.scissors { background-image: url( 'images_gray_min/219-scissors.png');}
+.scribble { background-image: url( 'images_gray_min/343-scribble.png');}
+.self-timer { background-image: url( 'images_gray_min/397-self-timer.png');}
+.server-rack { background-image: url( 'images_gray_min/386-server-rack.png');}
+.shipping-crate { background-image: url( 'images_gray_min/319-shipping-crate.png');}
+.shuffle { background-image: url( 'images_gray_min/05-shuffle.png');}
+.sketchbook { background-image: url( 'images_gray_min/240-sketchbook.png');}
+.sliders { background-image: url( 'images_gray_min/106-sliders.png');}
+.sort-ascending { background-image: url( 'images_gray_min/423-sort-ascending.png');}
+.sort-a-to-z { background-image: url( 'images_gray_min/421-sort-a-to-z.png');}
+.sort-descending { background-image: url( 'images_gray_min/424-sort-descending.png');}
+.subscription { background-image: url( 'images_gray_min/215-subscription.png');}
+.tag { background-image: url( 'images_gray_min/14-tag.png');}
+.target { background-image: url( 'images_gray_min/13-target.png');}
+.todo { background-image: url( 'images_gray_min/55-todo.png');}
+.todo-list { background-image: url( 'images_gray_min/427-todo-list.png');}
+.trash2 { background-image: url( 'images_gray_min/218-trash2.png');}
+.unlocked { background-image: url( 'images_gray_min/382-unlocked.png');}
+.upload-photo-2 { background-image: url( 'images_gray_min/168-upload-photo-2.png');}
+.wifi { background-image: url( 'images_gray_min/58-wifi.png');}
+.windows { background-image: url( 'images_gray_min/272-windows.png');}
+.wrench { background-image: url( 'images_gray_min/157-wrench.png');}
+.x { background-image: url( 'images_gray_min/433-x.png');}
+.x { background-image: url( 'images_gray_min/60-x.png');}
+.yes { background-image: url( 'images_gray_min/431-yes.png');}
+.zoomin { background-image: url( 'images_gray_min/267-zoomin.png');}
+.zoomout { background-image: url( 'images_gray_min/268-zoomout.png');}

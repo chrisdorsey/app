@@ -1,0 +1,150 @@
+/* CSS Document */
+.glyphish-file{
+		display: inline-block;
+		background-repeat:no-repeat;
+		background-position:center;	
+		height:34px;
+		width:34px;
+		cursor:pointer;
+		background-color:#000000;	/*BLACK*/
+		color: #FFFFFF;				/*WHITE*/
+		border-color:#FFFFFF;		/*WHITE*/
+		border-width:2px;
+		border-style:solid;
+		border-radius: 8px;	
+}
+/*WHITE GLYPHISH FILE DEFINITIONS*/
+/*Only the most common are included*/
+.action-white { background-image: url( 'white/211-action.png');}
+.adjustments-white { background-image: url( 'white/304-adjustments.png');}
+.arrow-east-white { background-image: url( 'white/02-arrow-east.png');}
+.arrow-northeast-white { background-image: url( 'white/04-arrow-northeast.png');}
+.arrow-northwest-white { background-image: url( 'white/05-arrow-northwest.png');}
+.arrow-north-white { background-image: url( 'white/03-arrow-north.png');}
+.arrows-in-white { background-image: url( 'white/10-arrows-in.png');}
+.arrow-southeast-white { background-image: url( 'white/07-arrow-southeast.png');}
+.arrow-southwest-white { background-image: url( 'white/08-arrow-southwest.png');}
+.arrow-south-white { background-image: url( 'white/06-arrow-south.png');}
+.arrows-out-white { background-image: url( 'white/11-arrows-out.png');}
+.arrow-west-white { background-image: url( 'white/09-arrow-west.png');}
+.at-white { background-image: url( 'white/287-at.png');}
+.bar-chart-white { background-image: url( 'white/17-bar-chart.png');}
+.bounce-white { background-image: url( 'white/435-bounce.png');}
+.bug-white { background-image: url( 'white/110-bug.png');}
+.calendar-white { background-image: url( 'white/426-calendar.png');}
+.chat-2-white { background-image: url( 'white/09-chat-2.png');}
+.chat-white { background-image: url( 'white/08-chat.png');}
+.checkmark1-white { background-image: url( 'white/428-checkmark1.png');}
+.checkmark2-white { background-image: url( 'white/429-checkmark2.png');}
+.checkmark3-white { background-image: url( 'white/430-checkmark3.png');}
+.checkmark-white { background-image: url( 'white/258-checkmark.png');}
+.check-white { background-image: url( 'white/17-check.png');}
+.circle-bothways-white { background-image: url( 'white/18-circle-bothways.png');}
+.circle-check-white { background-image: url( 'white/19-circle-check.png');}
+.circle-east-white { background-image: url( 'white/20-circle-east.png');}
+.circle-in-white { background-image: url( 'white/21-circle-in.png');}
+.circle-minus-white { background-image: url( 'white/22-circle-minus.png');}
+.circle-northeast-white { background-image: url( 'white/25-circle-northeast.png');}
+.circle-northwest-white { background-image: url( 'white/26-circle-northwest.png');}
+.circle-north-white { background-image: url( 'white/24-circle-north.png');}
+.circle-plus-white { background-image: url( 'white/31-circle-plus.png');}
+.circle-southeast-white { background-image: url( 'white/33-circle-southeast.png');}
+.circle-southwest-white { background-image: url( 'white/34-circle-southwest.png');}
+.circle-south-white { background-image: url( 'white/32-circle-south.png');}
+.circle-west-white { background-image: url( 'white/36-circle-west.png');}
+.circle-x-white { background-image: url( 'white/37-circle-x.png');}
+.clock-white { background-image: url( 'white/11-clock.png');}
+.code-fork-white { background-image: url( 'white/369-code-fork2.png');}
+.code-fork2-white { background-image: url( 'white/369-code-fork2.png');}
+.code-merge2-white { background-image: url( 'white/370-code-merge2.png');}
+.code-sync-white { background-image: url( 'white/368-code-sync.png');}
+.compose-white { background-image: url( 'white/216-compose.png');}
+.count-white { background-image: url( 'white/260-count.png');}
+.database-white { background-image: url( 'white/293-database.png');}
+.dialpad-white { background-image: url( 'white/40-dialpad.png');}
+.dislike-white { background-image: url( 'white/322-dislike.png');}
+.dollar-currency-white { background-image: url( 'white/384-dollar-currency.png');}
+.download-white { background-image: url( 'white/265-download.png');}
+.download-white { background-image: url( 'white/331-download.png');}
+.equals-white { background-image: url( 'white/438-equals.png');}
+.eye-white { background-image: url( 'white/12-eye.png');}
+.gameplan-white { background-image: url( 'white/101-gameplan.png');}
+.gear-white { background-image: url( 'white/19-gear.png');}
+.group-white { background-image: url( 'white/112-group.png');}
+.help-symbol1-white { background-image: url( 'white/441-help-symbol1.png');}
+.house-white { background-image: url( 'white/53-house.png');}
+.idcard-white { background-image: url( 'white/291-idcard.png');}
+.imac-white { background-image: url( 'white/174-imac.png');}
+.information-symbol1-white { background-image: url( 'white/442-information-symbol1.png');}
+.info-white { background-image: url( 'white/42-info.png');}
+.ipad-white { background-image: url( 'white/176-ipad.png');}
+.iphone-white { background-image: url( 'white/32-iphone.png');}
+.keyboard-white { background-image: url( 'white/341-keyboard.png');}
+.key-white { background-image: url( 'white/30-key.png');}
+.left-right-white { background-image: url( 'white/439-left-right.png');}
+.like-white { background-image: url( 'white/321-like.png');}
+.line-chart-white { background-image: url( 'white/16-line-chart.png');}
+.list2-white { background-image: url( 'white/400-list2.png');}
+.list-white { background-image: url( 'white/259-list.png');}
+.locked-white { background-image: url( 'white/381-locked.png');}
+.loopback-white { background-image: url( 'white/03-loopback.png');}
+.macbook-white { background-image: url( 'white/175-macbook.png');}
+.magic-wand-white { background-image: url( 'white/335-magic-wand.png');}
+.magnify-white { background-image: url( 'white/06-magnify.png');}
+.map-marker-white { background-image: url( 'white/07-map-marker.png');}
+.map-white { background-image: url( 'white/103-map.png');}
+.medical-bag-white { background-image: url( 'white/79-medical-bag.png');}
+.minus-white { background-image: url( 'white/437-minus.png');}
+.minus-white { background-image: url( 'white/45-minus.png');}
+.notepad-white { background-image: url( 'white/179-notepad.png');}
+.notepad-white { background-image: url( 'white/425-notepad.png');}
+.no-white { background-image: url( 'white/432-no.png');}
+.no-white { background-image: url( 'white/46-no.png');}
+.o-white { background-image: url( 'white/434-o.png');}
+.page-white { background-image: url( 'white/410-page.png');}
+.paperclip-white { background-image: url( 'white/68-paperclip.png');}
+.person-white { background-image: url( 'white/253-person.png');}
+.piechart-white { background-image: url( 'white/249-piechart.png');}
+.pill-white { background-image: url( 'white/94-pill.png');}
+.plus-white { background-image: url( 'white/436-plus.png');}
+.plus-white { background-image: url( 'white/50-plus.png');}
+.power-white { background-image: url( 'white/51-power.png');}
+.presentation-white { background-image: url( 'white/137-presentation.png');}
+.pricetag-white { background-image: url( 'white/172-pricetag.png');}
+.printer-white { background-image: url( 'white/185-printer.png');}
+.redo-white { background-image: url( 'white/02-redo.png');}
+.refresh-white { background-image: url( 'white/01-refresh.png');}
+.reloop-white { background-image: url( 'white/336-reloop.png');}
+.route-white { background-image: url( 'white/246-route.png');}
+.scissors-white { background-image: url( 'white/345-scissors.png');}
+.scribble-white { background-image: url( 'white/343-scribble.png');}
+.server-rack-white { background-image: url( 'white/386-server-rack.png');}
+.shipping-crate-white { background-image: url( 'white/319-shipping-crate.png');}
+.shuffle-white { background-image: url( 'white/05-shuffle.png');}
+.sketchbook-white { background-image: url( 'white/240-sketchbook.png');}
+.sliders-white { background-image: url( 'white/106-sliders.png');}
+.sort-ascending-white { background-image: url( 'white/423-sort-ascending.png');}
+.sort-a-to-z-white { background-image: url( 'white/421-sort-a-to-z.png');}
+.sort-descending-white { background-image: url( 'white/424-sort-descending.png');}
+.sort-z-to-a-white { background-image: url( 'white/422-sort-z-to-a.png');}
+.squiggle-white { background-image: url( 'white/04-squiggle.png');}
+.stats-white { background-image: url( 'white/250-stats.png');}
+.stickynote-white { background-image: url( 'white/180-stickynote.png');}
+.sun-white { background-image: url( 'white/171-sun.png');}
+.target-white { background-image: url( 'white/13-target.png');}
+.todo-list-white { background-image: url( 'white/427-todo-list.png');}
+.todo-white { background-image: url( 'white/117-todo.png');}
+.trash2-white { background-image: url( 'white/218-trash2.png');}
+.unlocked-white { background-image: url( 'white/382-unlocked.png');}
+.up-down-white { background-image: url( 'white/440-up-down.png');}
+.upload-photo-2-white { background-image: url( 'white/168-upload-photo-2.png');}
+.upload-white { background-image: url( 'white/266-upload.png');}
+.user-white { background-image: url( 'white/111-user.png');}
+.warning-white { background-image: url( 'white/184-warning.png');}
+.waypoint-white { background-image: url( 'white/312-waypoint.png');}
+.wifi-white { background-image: url( 'white/58-wifi.png');}
+.x-white { background-image: url( 'white/433-x.png');}
+.x-white { background-image: url( 'white/60-x.png');}
+.yes-white { background-image: url( 'white/431-yes.png');}
+.zoomin-white { background-image: url( 'white/267-zoomin.png');}
+.zoomout-white { background-image: url( 'white/268-zoomout.png');}

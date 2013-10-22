@@ -1,0 +1,374 @@
+<!doctype html>
+<html>
+
+
+<head>
+<!--  META DATA  -->
+<meta charset="utf-8">
+<meta 			name	=	"viewport" 
+				content	=	"width=device-width, 
+							minimum-scale=1.0, 
+ 							maximum-scale=1.0"/>
+<meta 			name	=	"apple-mobile-web-app-capable" 
+				content	=	"yes" />
+<meta 			name	=	"format-detection" 			
+				content	=	"telephone=no" />
+<meta 			name	=	"apple-mobile-web-app-status-bar-style" 
+				content	=	"black" />
+<!--  CSS  -->
+<link rel="stylesheet" type="text/css" href="../../css/libs/jquery.mobile-1.2.0.min.css">
+<link rel="stylesheet" type="text/css" href="../../css/libs/jquery.mobile-red-theme.css">
+<!--<link rel="stylesheet" type="text/css" href="../../css/plugins/datebox/jquery.mobile.datebox.min.css">
+<link rel="stylesheet" type="text/css" href="../../css/plugins/datatable/jquery.datatables.css">
+<link rel="stylesheet" type="text/css" href="../../css/app.css">-->
+<link rel="stylesheet" type="text/css" href="../../css/custom/glyphish_sprite.css">
+<link rel="stylesheet" type="text/css" href="../../css/custom/glyphish_files_min.css">
+<link rel="stylesheet" type="text/css" href="css/module.css">
+
+<!-- END: CSS  -->
+<!--  JS  -->
+<script 	src="../../js/libs/jquery-1.8.2.min.js">		</script>
+<script 	src="../../js/custom/jquery.dorsey.js">			</script>
+<script 	src="../../js/custom/jquery.formalize.js">		</script>
+<!--<script 	src="../../js/plugins/jquery.validate.min.js">	</script>
+<script 	src="../../js/plugins/jquery.datatables.min.js">	</script>
+<script 	src="../../js/app_core.js">						</script>
+<script 	src="js/module.js">								</script>-->
+<script 	src="../../js/libs/jquery.mobile-1.2.0.min.js">	</script>
+<script src="../../js/plugins/jquery.mobile.datebox.min.js"></script>
+
+
+<script>
+  //reset type=date inputs to text
+  $( document ).bind( "mobileinit", function(){
+    $.mobile.page.prototype.options.degradeInputs.date = true;
+  });	
+</script>
+
+<!--  END: JS  -->
+<style>
+
+</style>
+<title>User Module</title>
+</head>
+
+
+
+
+<body>
+
+	
+<!-- PAGE  -->	
+<section 	id="custom_test" 
+			data-role="page" 
+            data-theme="a"
+            data-title = "Custom Page" >
+	<!--  HEADER  -->
+        <header 	data-role="header" 
+        			class="form-header"  
+                    data-theme="a" 
+                    data-position="fixed" > 
+        <h3>DataTable CSS Button Tool Class</h3> 		
+        </header>
+	<!-- CONTENT  -->
+ 	 	<article 	data-role="content" 
+        			class="page-content" 
+                    data-theme="d" > 
+                	<div>
+                    <h3> Defaults </h3>
+                    	<p>
+                    	Default is 34px X 34px Round Icon. <br>
+                    	Default colors are shown.
+                    	Change as follows:
+                    	</p>
+                    </div>
+                    <div>
+                    	<h3>Usage</h3>
+                        <p>
+                        	<b>Color</b><br>
+                    		Add color name after class to change color.
+                        	example:<br>
+                        	<xmp><div class="sync-button blue"></div></xmp> looks like :<br>
+                        	<div class="sync-button blue"></div>
+                        	<b> Shape </b><br>
+                            Default is round.<br>
+                            Add "square" to get a square icon.<br>
+                        	<xmp><div class="todo-button square gray"></div></xmp> looks like :<br>
+							<div class="todo-button square gray"></div>
+                        	<xmp><div class="is-visible square yellow"></div></xmp> looks like :<br>
+							<div class="is-visible square yellow"></div>
+                       </p>     
+                    </div>
+                    <br>
+                <h3> Available Colors </h3>    
+				<div class="ui-grid-d">
+                	<div class="ui-block-a green">
+                	green
+               		</div>
+                	<div class="ui-block-b red">
+                	red
+                	</div>
+                	<div class="ui-block-c yellow">
+                	yellow
+                	</div>
+                	<div class="ui-block-d blue">
+                	blue
+                	</div>
+                	<div class="ui-block-d black">
+                	black
+                	</div>
+                	<div class="ui-block-d gray">
+                	gray OR disabled
+                	</div>
+                
+                </div>
+                <h3>Class Examples</h3>
+                <div class="ui-grid-d">
+
+                    <div class="ui-block-a">
+                    	<div class="is-expanded"></div>
+                        <br>
+                        <div class="is-collapsed"></div>
+                        <br>
+                        <div class="is-on"></div>
+                        <br>
+                        <div class="is-off"></div>
+                        <br>
+                        <div class="is-visible"></div>
+                        <br>
+                        <div class="is-invisible"></div>
+                        <br>
+                        <div class="todo-button"></div>
+                        <br>
+                        <div class="wifi-button"></div>
+                        <br>
+                        <div class="x-button"></div>
+                        <br>
+                        <div class="close-button"></div>
+                        <br>
+                        <div class="check-button"></div>
+                        <br>
+                        <div class="check-button2"></div>
+                        <br>
+                        <div class="info-button"></div>
+                        <br>
+                        <div class="sync-button"></div>
+                        <br>
+                        <div class="no-button"></div>
+                        <br>
+                        <div class="iphone-button"></div>
+                        <br>
+                        <div class="warning-button"></div>
+                        <br>
+                        <div class="email-button"></div>
+                        <br>
+                        <div class="print-button"></div>
+                        <br>
+                        <div class="zoomin-button"></div>
+                        <br>
+                        <div class="zoomout-button"></div>
+                        <br>
+                        <div class="target-button"></div>
+                        <br>
+                        <div class="time-button"></div>
+                        <br>
+                        <div class="settings-button"></div>
+                        <br>
+                        <div class="edit-button"></div>
+                        <br>
+                        <div class="trash-button"></div>
+                        <br>
+                        <div class="list-button"></div>
+                        <br>
+                        <div class="download-button"></div>
+                        <br>
+                        <div class="adjustments-button"></div>
+                        <br>
+                        <div class="calendar-button"></div>
+                        <br>
+                        <div class="shipping-button"></div>
+                        <br>
+                        <div class="notepad-button"></div>
+                        <br>
+                        <div class="help-button"></div>
+                    </div>
+                    <style>.ui-block-b div{
+						height:34px;	
+					}</style>
+                	<div class="ui-block-b">
+                    	<div >is-expanded  OR collapse</div>
+                        <br>
+                        <div >is-collapsed OR expand</div>
+                        <br>
+                        <div >is-on</div>
+                        <br>
+                        <div >is-off</div>
+                        <br>
+                        <div >is-visible</div>
+                        <br>
+                        <div >is-invisible</div>
+                        <br>
+                        <div >todo-button</div>
+                        <br>
+                        <div >wifi-button</div>
+                        <br>
+                        <div >x-button</div>
+                        <br>
+                        <div >close-button</div>
+                        <br>
+                        <div >check-button</div>
+                        <br>
+                        <div >check-button2</div>
+                        <br>
+                        <div >info-button</div>
+                        <br>
+                        <div >sync-button</div>
+                        <br>
+                        <div >no-button</div>
+                        <br>
+                        <div >iphone-button</div>
+                        <br>
+                        <div >warning-button</div>
+                        <br>
+                        <div >email-button</div>
+                        <br>
+                        <div >print-button</div>
+                        <br>
+                        <div >zoomin-button</div>
+                        <br>
+                        <div >zoomout-button</div>
+                        <br>
+                        <div >target-button</div>
+                        <br>
+                        <div >time-button</div>
+                        <br>
+                        <div >settings-button</div>
+                        <br>
+                        <div >edit-button</div>
+                        <br>
+                        <div >trash-button</div>
+                        <br>
+                        <div >list-button</div>
+                        <br>
+                        <div >download-button</div>
+                        <br>
+                        <div >adjustments-button</div>
+                        <br>
+                        <div >calendar-button</div>
+                        <br>
+                        <div >shipping-button</div>
+                        <br>
+                        <div >notepad-button</div>
+                        <br>
+                        <div >help-button</div>
+                    </div>
+                	<div class="ui-block-c">
+                    	<div class="is-expanded square"></div>
+                        <br>
+                        <div class="is-collapsed square"></div>
+                        <br>
+                        <div class="is-on square"></div>
+                        <br>
+                        <div class="is-off square"></div>
+                        <br>
+                        <div class="is-visible square"></div>
+                        <br>
+                        <div class="is-invisible square"></div>
+                        <br>
+                        <div class="todo-button square"></div>
+                        <br>
+                        <div class="wifi-button square"></div>
+                        <br>
+                        <div class="x-button square"></div>
+                        <br>
+                        <div class="close-button square"></div>
+                        <br>
+                        <div class="check-button square"></div>
+                        <br>
+                        <div class="check-button2 square"></div>
+                        <br>
+                        <div class="info-button"></div>
+                        <br>
+                        <div class="sync-button square"></div>
+                        <br>
+                        <div class="no-button square"></div>
+                        <br>
+                        <div class="iphone-button square"></div>
+                        <br>
+                        <div class="warning-button square"></div>
+                        <br>
+                        <div class="email-button square"></div>
+                        <br>
+                        <div class="print-button square"></div>
+                        <br>
+                        <div class="zoomin-button square"></div>
+                        <br>
+                        <div class="zoomout-button square"></div>
+                        <br>
+                        <div class="target-button square"></div>
+                        <br>
+                        <div class="time-button square"></div>
+                        <br>
+                        <div class="settings-button square"></div>
+                         <br>
+                        <div class="edit-button square"></div>
+                         <br>
+                        <div class="trash-button square"></div>
+                         <br>
+                        <div class="list-button square"></div>
+                        <br>
+                        <div class="download-button square"></div>
+                        <br>
+                        <div class="adjustments-button square"></div>
+                        <br>
+                        <div class="calendar-button square"></div>
+                        <br>
+                        <div class="shipping-button square"></div>
+                        <br>
+                        <div class="notepad-button square"></div>
+                        <br>
+                        <div class="help-button square"></div> 
+                        
+                        
+                                            <!--   
+                        <br>
+                        <div class="calendar-button square"></div>
+                        <br>
+                        <div class="sort-ascending-button square"></div>
+                        <br>
+                        <div class="sort-descending-button square"></div>
+                        <br>
+                        <div class="notepad-button square"></div>
+                        <br>
+                        <div class="adjust-button square"></div>
+                        <br>
+                        <div class="box-button square"></div>
+                        <br>
+                        <div class="download-button square"></div>
+                        <br>
+                        <div class="list-button square"></div>
+                        <br>
+                        <div class="help-button square"></div>
+                       --> 
+                    </div>
+                </div>
+                 <h3>CUSTOM Examples</h3>
+                <div class="ui-grid-d">
+
+                    <div class="ui-block-a">
+                    	<div class="glyphish-file action white"></div>
+                        <br>
+                        <div class="is-collapsed"></div>
+                        <br>    
+        </article>
+	<!-- FOOTER  -->
+		<footer 	data-role="footer" 
+        			class="nav-glyphish form-footer" 
+                    data-position="fixed" 
+                    data-theme="g">
+         <!-- LOADED DYNAMICALLY  --><p>Author: Chris Dorsey 2012-11-04</p>
+  		</footer>
+</section>	
+       
+</body>    
+</html>

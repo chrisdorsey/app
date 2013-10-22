@@ -1,0 +1,70 @@
+/**
+* @title Header Navbar Css
+* @author Chris Dorsey	chris@dorseycompany.com
+* @date	2012-02-02
+*/
+
+/* JQM Header Nav Bar Settings */
+	/*DEFAULTS*/
+		header nav  a{
+			/*width:16%; 
+			max-width:16%;*/
+		}
+		header nav  a div {
+			height:55px;
+		}
+		header nav  a span {
+			font-size:12px;
+		}
+		nav img{
+			max-height:80%;
+			max-width:60%;
+		}
+	/* CLASS: NUMBER OF ELEMENTS*/		
+	header {text-align:center};
+	header .nav-5  a{
+		width:19%; 
+		max-width:19%;
+	}
+	header .nav-6  a{
+		width:16%; 
+		max-width:16%;
+	}
+	header .nav-7  a{
+		width:14%; 
+		max-width:14%;
+	}
+	header .nav-8  a{
+		width:12%; 
+		max-width:12%;
+	}
+	header .nav-9  a{
+		width:10.5%; 
+		max-width:10.5%;
+	}
+	header .nav-10  a{
+		width:9.5%; 
+		max-width:9.5%;
+	}
+	header .nav-12  a{
+		width:8%; 
+		max-width:8%;
+	}
+	
+	/* CLASS: SMALL NAVBAR*/
+	header .nav-small  a div {
+		height:20px;
+	}	
+	header .nav-small a span {
+		font-size:9px;
+	}
+	/* CLASS: MEDIUM NAVBAR*/
+	header .nav-medium  a div {
+		height:30px;
+	}	
+	header .nav-medium a span {
+		font-size:10px;
+	}
+			
+/*END: JQM Header Nav Bar Settings*/
+
